@@ -8,4 +8,19 @@
     <string name="let_s_begin">Let’s Begin!</string>
     <string name="create_account1">What cooking equipment do you have access to?</string>
     <string name="skip">Skip</string>
+
+    <string name="equipment1">Oven</string>
+    <string name="equipment2">Stovetop</string>
+    <string name="equipment3">Slow Cooker</string>
+    <string name="equipment4">Microwave</string>
+    <string name="equipment5">Blender</string>
+    <string name="equipment6">Grill</string>
+    <string name="equipment7">Air Fryer</string>
+    <string name="create_account2">How much do you enjoy cooking?</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+
 </resources>
