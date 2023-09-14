@@ -3,7 +3,9 @@ package com.example.tastebonanza.utilits
 import android.annotation.SuppressLint
 import android.annotation.TargetApi
 import android.app.Activity
+import android.graphics.Color
 import android.os.Build
+import android.view.View
 import android.view.Window
 import android.view.WindowManager
 import androidx.core.content.ContextCompat
@@ -32,10 +34,18 @@ fun replaceFragmentMain(fagmnt: Fragment, aStack: Boolean = true) {
 fun setStatusBarGradiantMain(activity: Activity) {
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
         val window: Window = activity.window
-        val background = ContextCompat.getDrawable(activity, R.color.background)
+        //val background = ContextCompat.getDrawable(activity, R.color.background)
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
 
         window.statusBarColor = ContextCompat.getColor(activity,android.R.color.transparent)
-        window.setBackgroundDrawable(background)
+        //window.setBackgroundDrawable(background)
     }
 }
+
+/*
+fun setStatusBarFragment(activity: Activity){
+    activity?.window?.apply {
+        decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+        statusBarColor = Color.TRANSPARENT
+    }
+}*/
