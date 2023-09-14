@@ -2,4 +2,8 @@
     <string name="app_name">TasteBonanza</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_onboarding">Savory Solutions</string>
+    <string name="text_onboarding">Using state-of-the-art natural language processing, it suggests personalized recipes based on your preferences, dietary needs, and available ingredients.</string>
+    <string name="skip_for_now">skip for now</string>
+    <string name="let_s_begin">Let’s Begin!</string>
 </resources>
