@@ -6,4 +6,5 @@
     <string name="text_onboarding">Using state-of-the-art natural language processing, it suggests personalized recipes based on your preferences, dietary needs, and available ingredients.</string>
     <string name="skip_for_now">skip for now</string>
     <string name="let_s_begin">Let’s Begin!</string>
+    <string name="create_account1">What cooking equipment do you have access to?</string>
 </resources>
