@@ -22,5 +22,17 @@
     <string name="_3">3</string>
     <string name="_5">5</string>
     <string name="_4">4</string>
+    <string name="create_account3">How often do you cook meals from scratch?</string>
+    <string name="rarely">Rarely</string>
+    <string name="occasionally">Occasionally</string>
+    <string name="weekly">Weekly</string>
+    <string name="several_times_a_week">Several times a week</string>
+    <string name="almost_every_day">Almost every day</string>
+    <string name="what_do_you_enjoy_most_about_the_process_of_cooking">What do you enjoy most about the process of cooking?</string>
+    <string name="developing_new_skills">Developing new skills</string>
+    <string name="relaxation_and_stress_relief">Relaxation and stress relief</string>
+    <string name="sharing_meals_with_others">Sharing meals with others</string>
+    <string name="trying_new_recipes">Trying new recipes</string>
+    <string name="creativity_and_experimentation">Creativity and experimentation</string>
 
 </resources>

@@ -6,12 +6,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.tastebonanza.R
-import com.example.tastebonanza.databinding.FragmentCreateEnjoyBinding
+import com.example.tastebonanza.databinding.FragmentCookBinding
 import com.example.tastebonanza.databinding.FragmentCreateEquipmentBinding
 import com.example.tastebonanza.utilits.replaceFragmentMain
 
-class CreateEnjoyFragment : Fragment() {
-    private var _binding : FragmentCreateEnjoyBinding? = null
+class CookFragment : Fragment() {
+
+    private var _binding : FragmentCookBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -19,10 +20,10 @@ class CreateEnjoyFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentCreateEnjoyBinding.inflate(inflater, container, false)
+        _binding = FragmentCookBinding.inflate(inflater, container, false)
 
-        binding.btNext.setOnClickListener { replaceFragmentMain(CookFragment()) }
+        binding.btNext.setOnClickListener { replaceFragmentMain(CreateProcessFragment()) }
 
-        return  binding.root
+        return binding.root
     }
 }
