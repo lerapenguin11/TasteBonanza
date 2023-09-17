@@ -15,6 +15,9 @@ import com.example.tastebonanza.databinding.FragmentCreateEquipmentBinding
 import com.example.tastebonanza.presentation.adapter.EquipmentAdapter
 import com.example.tastebonanza.utilits.replaceFragmentMain
 import com.example.tastebonanza.viewmodel.EquipmentViewModel
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 class CreateEquipmentFragment : Fragment() {
     private var _binding : FragmentCreateEquipmentBinding? = null
@@ -52,7 +55,9 @@ class CreateEquipmentFragment : Fragment() {
         }
 
         for (equipment in selectedEquipment) {
-            equipmentDao.insertEquipment(Equipment(name = equipment))
+            CoroutineScope(Dispatchers.IO).launch {
+                equipmentDao.insertEquipment(Equipment(name = equipment))
+            }
         }
         replaceFragmentMain(CreateEnjoyFragment())
     }

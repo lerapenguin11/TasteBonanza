@@ -35,4 +35,32 @@
     <string name="trying_new_recipes">Trying new recipes</string>
     <string name="creativity_and_experimentation">Creativity and experimentation</string>
 
+    <string name="recipe_name1">Spaghetti bolognese</string>
+    <string name="tag1">dinner</string>
+
+    <string name="ing1">Minced meat</string>
+    <string name="ingEg1">gr</string>
+    <string name="ing2">Onion</string>
+    <string name="ingEg2">pc.</string>
+    <string name="ing3">Carrots</string>
+    <string name="ingEg3">gr</string>
+    <string name="ing4">Celery stalk</string>
+    <string name="ing5">Olive oil</string>
+    <string name="ing6">tablespoons</string>
+    <string name="ing7">butter</string>
+    <string name="ing8">Fat cream</string>
+    <string name="ing9">White wine</string>
+    <string name="ingEg9">ml</string>
+    <string name="ing10">Tomato paste</string>
+    <string name="ingEg10">tablespoons</string>
+    <string name="ing11">Tomatoes</string>
+
+    <string name="recipe1">1. In a deep frying pan or saucepan, heat the olive oil over medium heat.
+2. Add onion, celery, carrot and garlic. Fry the vegetables until soft, about 5-7 minutes.
+3. Add the minced meat and cook it until brown, breaking it into small pieces.
+4. Add tomato paste and canned tomatoes, mix. Cook for a few minutes to thicken the sauce.
+5. Gradually add beef or vegetable broth to make the sauce more liquid. Season with salt and pepper to taste.
+6. Reduce the heat to low, cover and cook the bolognese for about 1-2 hours, stirring occasionally.
+7. Cook spaghetti or other pasta according to the instructions on the package.
+8. Serve the bolognese with spaghetti or other pasta. Sprinkle parmesan on top, if desired.</string>
 </resources>

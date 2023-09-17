@@ -31,4 +31,83 @@ object Constants {
         return equipmentList
     }
 
+    fun getRecipe() : MutableList<RecipeModel>{
+        val recipeList = mutableListOf<RecipeModel>()
+
+        val recipe1 = RecipeModel(R.string.recipe_name1, listOf(EquipmentModel(R.string.equipment2)), R.drawable.img1, R.string.tag1,
+                        "https://bye-bye-calories.ru/wp-content/uploads/d/e/5/de5c8c2e08a375404ab53a6faaa8a305.jpeg",
+                                "4-5", "1,5h", 143, listOf(
+                IngredientsModel(R.string.ing1, 500, R.string.ingEg1,),
+                IngredientsModel(R.string.ing2, 1, R.string.ingEg2,),
+                IngredientsModel(R.string.ing3, 200, R.string.ingEg1,),
+                IngredientsModel(R.string.ing4, 1, R.string.ingEg2,),
+                IngredientsModel(R.string.ing5, 3, R.string.ingEg9,),
+                IngredientsModel(R.string.ing6, 200, R.string.ingEg1,)), R.string.recipe1
+        )
+        recipeList.add(recipe1)
+
+        val recipe2 = RecipeModel(R.string.recipe_name1, listOf(EquipmentModel(R.string.equipment1)), R.drawable.img1, R.string.tag1,
+            "https://bye-bye-calories.ru/wp-content/uploads/d/e/5/de5c8c2e08a375404ab53a6faaa8a305.jpeg",
+            "4-5", "1,5h", 143, listOf(
+                IngredientsModel(R.string.ing1, 500, R.string.ingEg1,),
+                IngredientsModel(R.string.ing2, 1, R.string.ingEg2,),
+                IngredientsModel(R.string.ing3, 200, R.string.ingEg1,),
+                IngredientsModel(R.string.ing4, 1, R.string.ingEg2,),
+                IngredientsModel(R.string.ing5, 3, R.string.ingEg9,),
+                IngredientsModel(R.string.ing6, 200, R.string.ingEg1,)), R.string.recipe1
+        )
+        recipeList.add(recipe2)
+
+        val recipe3 = RecipeModel(R.string.recipe_name1, listOf(EquipmentModel(R.string.equipment3)), R.drawable.img1, R.string.tag1,
+            "https://bye-bye-calories.ru/wp-content/uploads/d/e/5/de5c8c2e08a375404ab53a6faaa8a305.jpeg",
+            "4-5", "1,5h", 143, listOf(
+                IngredientsModel(R.string.ing1, 500, R.string.ingEg1,),
+                IngredientsModel(R.string.ing2, 1, R.string.ingEg2,),
+                IngredientsModel(R.string.ing3, 200, R.string.ingEg1,),
+                IngredientsModel(R.string.ing4, 1, R.string.ingEg2,),
+                IngredientsModel(R.string.ing5, 3, R.string.ingEg9,),
+                IngredientsModel(R.string.ing6, 200, R.string.ingEg1,)), R.string.recipe1
+        )
+        recipeList.add(recipe3)
+
+        val recipe4 = RecipeModel(R.string.recipe_name1, listOf(EquipmentModel(R.string.equipment4)), R.drawable.img1, R.string.tag1,
+            "https://bye-bye-calories.ru/wp-content/uploads/d/e/5/de5c8c2e08a375404ab53a6faaa8a305.jpeg",
+            "4-5", "1,5h", 143, listOf(
+                IngredientsModel(R.string.ing1, 500, R.string.ingEg1,),
+                IngredientsModel(R.string.ing2, 1, R.string.ingEg2,),
+                IngredientsModel(R.string.ing3, 200, R.string.ingEg1,),
+                IngredientsModel(R.string.ing4, 1, R.string.ingEg2,),
+                IngredientsModel(R.string.ing5, 3, R.string.ingEg9,),
+                IngredientsModel(R.string.ing6, 200, R.string.ingEg1,)), R.string.recipe1
+        )
+        recipeList.add(recipe4)
+
+        val recipe5 = RecipeModel(R.string.recipe_name1, listOf(EquipmentModel(R.string.equipment5)), R.drawable.img1, R.string.tag1,
+            "https://bye-bye-calories.ru/wp-content/uploads/d/e/5/de5c8c2e08a375404ab53a6faaa8a305.jpeg",
+            "4-5", "1,5h", 143, listOf(
+                IngredientsModel(R.string.ing1, 500, R.string.ingEg1,),
+                IngredientsModel(R.string.ing2, 1, R.string.ingEg2,),
+                IngredientsModel(R.string.ing3, 200, R.string.ingEg1,),
+                IngredientsModel(R.string.ing4, 1, R.string.ingEg2,),
+                IngredientsModel(R.string.ing5, 3, R.string.ingEg9,),
+                IngredientsModel(R.string.ing6, 200, R.string.ingEg1,)), R.string.recipe1
+        )
+        recipeList.add(recipe5)
+
+        val recipe6 = RecipeModel(R.string.recipe_name1, listOf(EquipmentModel(R.string.equipment6)), R.drawable.img1, R.string.tag1,
+            "https://bye-bye-calories.ru/wp-content/uploads/d/e/5/de5c8c2e08a375404ab53a6faaa8a305.jpeg",
+            "4-5", "1,5h", 143, listOf(
+                IngredientsModel(R.string.ing1, 500, R.string.ingEg1,),
+                IngredientsModel(R.string.ing2, 1, R.string.ingEg2,),
+                IngredientsModel(R.string.ing3, 200, R.string.ingEg1,),
+                IngredientsModel(R.string.ing4, 1, R.string.ingEg2,),
+                IngredientsModel(R.string.ing5, 3, R.string.ingEg9,),
+                IngredientsModel(R.string.ing6, 200, R.string.ingEg1,)), R.string.recipe1
+        )
+        recipeList.add(recipe6)
+
+
+        return recipeList
+    }
+
 }

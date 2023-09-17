@@ -4,12 +4,17 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.room.TypeConverters
 import com.example.tastebonanza.business.model.Equipment
+import com.example.tastebonanza.business.model.Ingredients
+import com.example.tastebonanza.business.model.Recipe
 
-@Database(entities = [Equipment::class], version = 1)
+@Database(entities = [Equipment::class, Recipe::class, Ingredients::class], version = 5)
+@TypeConverters(EquipmentConverter::class, IngredientsConverter::class)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun equipmentDao(): EquipmentDao
-    //abstract fun recipeDao(): RecipeDao
+    abstract fun recipeDao(): RecipeDao
+    abstract fun ingredientsDao(): IngredientsDao
 
     companion object {
         private var INSTANCE: AppDatabase? = null
@@ -20,7 +25,7 @@ abstract class AppDatabase : RoomDatabase() {
                     INSTANCE = Room.databaseBuilder(
                         context.applicationContext,
                         AppDatabase::class.java,
-                        "recipes_database"
+                        "recipes_database_5"
                     ).build()
                 }
             }
