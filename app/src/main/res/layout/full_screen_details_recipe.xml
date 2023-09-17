@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/icon_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:preserveLegacyExternalStorage="true"
+        android:requestLegacyExternalStorage="true"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_defolt" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="-170dp"
+        android:background="@drawable/bg_details"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon_details">
+
+
+        <ImageView
+            android:id="@+id/fon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:preserveLegacyExternalStorage="true"
+            android:requestLegacyExternalStorage="true"
+            android:scaleType="fitXY"
+            app:layout_constraintVertical_bias="1"
+            android:layout_marginBottom="-40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/fon3" />
+        <ScrollView
+            android:id="@+id/scrollView_all_news"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3">
+
+            <LinearLayout
+                android:id="@+id/innerLinearLayout_all_news"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="ScrollViewSize">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_name_recipe_details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:includeFontPadding="false"
+                        android:textColor="#FF4D6E"
+                        android:textSize="24sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="Banana Bread" />
+
+                    <TextView
+                        android:id="@+id/tv_tag_details"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:text="breakfast snack"
+                        android:textColor="#4A9CF9"
+                        android:fontFamily="@font/poppins_light"
+                        app:layout_constraintEnd_toEndOf="@+id/tv_name_recipe_details"
+                        app:layout_constraintStart_toStartOf="@+id/tv_name_recipe_details"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_name_recipe_details" />
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_tag_details">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="104dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_info2">
+
+                            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="0dp"
+                                android:layout_height="104dp"
+                                android:preserveLegacyExternalStorage="true"
+                                android:requestLegacyExternalStorage="true"
+                                android:scaleType="fitXY"
+                                app:layout_constraintEnd_toEndOf="@+id/constraintLayout3"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/info_recipe" />
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/constraintLayout3"
+                                android:layout_width="match_parent"
+                                android:layout_height="104dp"
+                                android:background="@drawable/bg_ifo_recipe"
+                                android:padding="8dp"
+                                app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:id="@+id/constraintLayout4"
+                                    android:layout_width="36dp"
+                                    android:layout_height="36dp"
+                                    android:background="@drawable/bg_info"
+                                    android:elevation="10dp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent">
+
+                                    <ImageView
+                                        android:id="@+id/imageView10"
+                                        android:layout_width="27dp"
+                                        android:layout_height="22dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        app:srcCompat="@drawable/ic_chef_hat" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                                <TextView
+                                    android:id="@+id/textView8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_light"
+                                    android:includeFontPadding="false"
+                                    android:text="@string/servings"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="@+id/constraintLayout4"
+                                    app:layout_constraintStart_toStartOf="@+id/constraintLayout4" />
+
+                                <TextView
+                                    android:id="@+id/tv_servings_details"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_semibold"
+                                    android:includeFontPadding="false"
+                                    android:textColor="@color/white"
+                                    android:textSize="20sp"
+                                    app:layout_constraintBottom_toTopOf="@+id/textView8"
+                                    app:layout_constraintEnd_toEndOf="@+id/textView8"
+                                    app:layout_constraintStart_toStartOf="@+id/textView8"
+                                    app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
+                                    tools:text="8-10" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="104dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_info2">
+
+                            <ImageView
+                                android:id="@+id/imageView8"
+                                android:layout_width="match_parent"
+                                android:layout_height="104dp"
+                                android:preserveLegacyExternalStorage="true"
+                                android:requestLegacyExternalStorage="true"
+                                android:scaleType="fitXY"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/info_recipe" />
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/constraintLayout6"
+                                android:layout_width="match_parent"
+                                android:layout_height="104dp"
+                                android:background="@drawable/bg_ifo_recipe"
+                                android:padding="8dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:id="@+id/constraintLayout5"
+                                    android:layout_width="36dp"
+                                    android:layout_height="36dp"
+                                    android:background="@drawable/bg_info"
+                                    android:elevation="10dp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent">
+
+                                    <ImageView
+                                        android:id="@+id/imageView11"
+                                        android:layout_width="24dp"
+                                        android:layout_height="24dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        app:srcCompat="@drawable/ic_clock" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                                <TextView
+                                    android:id="@+id/textView9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_light"
+                                    android:includeFontPadding="false"
+                                    android:text="@string/servings"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="@+id/constraintLayout5"
+                                    app:layout_constraintStart_toStartOf="@+id/constraintLayout5" />
+
+                                <TextView
+                                    android:id="@+id/tv_time_details"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_semibold"
+                                    android:includeFontPadding="false"
+                                    android:textColor="@color/white"
+                                    android:textSize="20sp"
+                                    app:layout_constraintBottom_toTopOf="@+id/textView9"
+                                    app:layout_constraintEnd_toEndOf="@+id/textView9"
+                                    app:layout_constraintStart_toStartOf="@+id/textView9"
+                                    app:layout_constraintTop_toBottomOf="@+id/constraintLayout5"
+                                    tools:text="8h" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="104dp"
+                            android:layout_margin="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_info2">
+
+                            <ImageView
+                                android:id="@+id/imageView9"
+                                android:layout_width="match_parent"
+                                android:layout_height="104dp"
+                                android:preserveLegacyExternalStorage="true"
+                                android:requestLegacyExternalStorage="true"
+                                android:scaleType="fitXY"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/info_recipe" />
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/constraintLayout7"
+                                android:layout_width="match_parent"
+                                android:layout_height="104dp"
+                                android:background="@drawable/bg_ifo_recipe"
+                                android:padding="8dp"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:id="@+id/constraintLayout10"
+                                    android:layout_width="36dp"
+                                    android:layout_height="36dp"
+                                    android:background="@drawable/bg_info"
+                                    android:elevation="10dp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent">
+
+                                    <ImageView
+                                        android:id="@+id/imageView12"
+                                        android:layout_width="27dp"
+                                        android:layout_height="22dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        app:srcCompat="@drawable/ic_fire" />
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                                <TextView
+                                    android:id="@+id/textView10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_light"
+                                    android:includeFontPadding="false"
+                                    android:text="@string/servings"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="@+id/constraintLayout10"
+                                    app:layout_constraintStart_toStartOf="@+id/constraintLayout10" />
+
+                                <TextView
+                                    android:id="@+id/tv_calories_details"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="4dp"
+                                    android:fontFamily="@font/poppins_semibold"
+                                    android:includeFontPadding="false"
+                                    android:textColor="@color/white"
+                                    android:textSize="20sp"
+                                    app:layout_constraintBottom_toTopOf="@+id/textView10"
+                                    app:layout_constraintEnd_toEndOf="@+id/constraintLayout10"
+                                    app:layout_constraintStart_toStartOf="@+id/constraintLayout10"
+                                    app:layout_constraintTop_toBottomOf="@+id/constraintLayout10"
+                                    tools:text="8h" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </LinearLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/block_ingredients"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:visibility="visible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/bt_details"
+                            android:layout_width="180dp"
+                            android:layout_height="38dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/bg_bt2"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/constraintLayout8"
+                            app:layout_constraintStart_toStartOf="@+id/constraintLayout8"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout8">
+
+
+                            <TextView
+                                android:id="@+id/tv_text_bt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/poppins_medium"
+                                android:includeFontPadding="false"
+                                android:text="@string/let_s_cook"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ingredients"
+                            android:textColor="#FF4D6E"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/tv_count_item"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="8 items"
+                            android:textColor="#4A9CF9"
+                            android:fontFamily="@font/poppins_light"
+                            android:textSize="14sp"
+                            app:layout_constraintBottom_toBottomOf="@+id/textView11"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/textView11" />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/bg_info2"
+                            android:elevation="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView11">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/constraintLayout13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_ifo_recipe"
+                                android:padding="8dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/rv_ingredients"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    tools:itemCount="8"
+                                    tools:listitem="@layout/item_ingredients" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/block_cooking"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:visibility="gone"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/bt_ingredients"
+                            android:layout_width="257dp"
+                            android:layout_height="38dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/bg_bt2"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="@+id/constraintLayout0"
+                            app:layout_constraintStart_toStartOf="@+id/constraintLayout0"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout0">
+
+
+                            <TextView
+                                android:id="@+id/tv_text_bt2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/poppins_medium"
+                                android:includeFontPadding="false"
+                                android:text="@string/back_to_ingredients"
+                                android:textColor="@color/white"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/cooking_instruction"
+                            android:textColor="#FF4D6E"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/poppins_semibold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout0"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/bg_info2"
+                            android:elevation="10dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView15">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/constraintLayout1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/bg_ifo_recipe"
+                                android:padding="8dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+
+                                <TextView
+                                    android:id="@+id/textView14"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    tools:text="Preheat your oven to 350°F (175°C) and grease a loaf pan.
+In a mixing bowl, mash the ripe banana until smooth.
+Add the flour, eggs, sugar, vegetable oil, a pinch of salt, and a handful of chocolate chips (optional) to the bowl.
+Mix the ingredients together until well combined.
+Pour the batter into the greased loaf pan and smooth the top.
+Bake in the preheated oven for about 60-70 minutes or until a toothpick inserted into the center comes out clean.
+Once baked, remove the banana bread from the oven and let it cool in the pan for 10 minutes.
+Transfer the bread to a wire rack to cool completely before slicing and serving."
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp"
+                                    android:fontFamily="@font/poppins"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

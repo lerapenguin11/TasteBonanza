@@ -63,4 +63,9 @@
 6. Reduce the heat to low, cover and cook the bolognese for about 1-2 hours, stirring occasionally.
 7. Cook spaghetti or other pasta according to the instructions on the package.
 8. Serve the bolognese with spaghetti or other pasta. Sprinkle parmesan on top, if desired.</string>
+    <string name="servings">servings</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="let_s_cook">Let’s Cook!</string>
+    <string name="cooking_instruction">Cooking Instruction:</string>
+    <string name="back_to_ingredients">Back to ingredients</string>
 </resources>

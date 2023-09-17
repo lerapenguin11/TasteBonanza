@@ -10,16 +10,16 @@ import com.example.tastebonanza.business.database.IngredientsConverter
 data class Recipe(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
-    val name: String,
+    val name: Int,
     @TypeConverters(EquipmentConverter::class)
     val equipment: List<Equipment>,
-    val iconList : String,
-    val tag : Int,
-    val icon : String,
-    val servings : String,
-    val time : Int,
-    val calories : Int,
+    val iconList: Int,
+    val tag: Int,
+    val icon: String,
+    val servings: String,
+    val time: String,
+    val calories: Int,
     @TypeConverters(IngredientsConverter::class)
-    val ingredients : List<Ingredients>,
-    val recipe : Int
+    val ingredients: List<Ingredients>,
+    val recipe: Int
 )

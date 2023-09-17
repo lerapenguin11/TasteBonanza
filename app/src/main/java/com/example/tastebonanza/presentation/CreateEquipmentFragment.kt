@@ -10,7 +10,11 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.tastebonanza.business.database.AppDatabase
 import com.example.tastebonanza.business.database.EquipmentDao
+import com.example.tastebonanza.business.database.RecipeDao
 import com.example.tastebonanza.business.model.Equipment
+import com.example.tastebonanza.business.model.Ingredients
+import com.example.tastebonanza.business.model.Recipe
+import com.example.tastebonanza.business.model.RecipeModel
 import com.example.tastebonanza.databinding.FragmentCreateEquipmentBinding
 import com.example.tastebonanza.presentation.adapter.EquipmentAdapter
 import com.example.tastebonanza.utilits.replaceFragmentMain
@@ -26,6 +30,7 @@ class CreateEquipmentFragment : Fragment() {
     private val adapter = EquipmentAdapter()
 
     private lateinit var equipmentDao: EquipmentDao
+    private lateinit var recipeDao: RecipeDao
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -37,12 +42,36 @@ class CreateEquipmentFragment : Fragment() {
         viewModel = ViewModelProvider(requireActivity()).get(EquipmentViewModel::class.java)
 
         equipmentDao = AppDatabase.getInstance(requireContext()).equipmentDao()
+        recipeDao =  AppDatabase.getInstance(requireContext()).recipeDao()
 
         observeEquipmentData()
-
-        binding.btNext.setOnClickListener { saveChoice()}
+        binding.btNext.setOnClickListener {
+            saveRecipeAll()
+            saveChoice()
+        }
 
         return  binding.root
+    }
+
+    private fun saveRecipeAll() {
+        viewModel.getResultRecipeAll().observe(viewLifecycleOwner, Observer {
+            for (recipeModel in it){
+                CoroutineScope(Dispatchers.IO).launch {
+                    recipeDao.insertRecipe(Recipe(name = recipeModel.name,
+                        equipment = recipeModel.equipment.map { Equipment(name = it.name) },
+                        iconList = recipeModel.iconList,
+                        tag = recipeModel.tag,
+                        icon = recipeModel.icon,
+                        servings = recipeModel.servings,
+                        time = recipeModel.time,
+                        calories = recipeModel.calories,
+                        ingredients = recipeModel.ingredients.map { Ingredients(ingredientName = it.ingredientName,
+                            ingredientCount = it.ingredientCount,
+                            ingredientEd = it.ingredientEd) },
+                        recipe = recipeModel.recipe))
+                }
+            }
+        })
     }
 
     private fun saveChoice() {

@@ -13,7 +13,6 @@ import com.example.tastebonanza.business.model.EquipmentModel
 class EquipmentAdapter() : RecyclerView.Adapter<EquipmentAdapter.EquipmentViewHolder>(){
 
     private val equipmentList = mutableListOf<EquipmentModel>()
-    //private val checkedItems = SparseBooleanArray()
 
     private val selectedEquipment = mutableListOf<EquipmentModel>()
     private val checkedItemPositions = SparseBooleanArray()

@@ -4,7 +4,7 @@ import com.example.tastebonanza.R
 
 object Constants {
 
-    fun getTrendingNews() : MutableList<EquipmentModel>{
+    fun getEquipment() : MutableList<EquipmentModel>{
         val equipmentList = mutableListOf<EquipmentModel>()
 
         val equipment1 = EquipmentModel(R.string.equipment1)

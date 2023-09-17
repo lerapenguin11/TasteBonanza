@@ -11,7 +11,7 @@ interface RecipeDao {
     fun getRecipesByEquipment(equipment: String): List<Recipe>*/
 
     @Query("SELECT * FROM recipes WHERE equipment LIKE '%' || :equipment || '%'")
-    fun getRecipesByEquipment(equipment: String): List<Recipe>
+    fun getRecipesByEquipment(equipment: Int): MutableList<Recipe>
 
     @Insert
     fun insertRecipe(recipe: Recipe)
