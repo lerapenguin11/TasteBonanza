@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Tastenza</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Merhaba boş parça</string>
+    <string name="title_onboarding">Tuzlu Çözümler</string>
+    <string name="text_onboarding">En son teknoloji doğal dil işleme kullanarak, tercihlerinize, diyet ihtiyaçlarınıza ve mevcut malzemelere göre kişiselleştirilmiş tarifler önerir.</string>
+    <string name="skip_for_now">şimdilik geç</string>
+    <string name="let_s_begin">Hadi başlayalım!</string>
+    <string name="create_account1">Hangi pişirme ekipmanına erişiminiz var?</string>
+    <string name="skip">Atlamak</string>
+
+    <string name="equipment1">Fırın</string>
+    <string name="equipment2">Soba</string>
+    <string name="equipment3">Yavaş pişirici</string>
+    <string name="equipment4">Mikrodalga</string>
+    <string name="equipment5">Blender</string>
+    <string name="equipment6">Izgara</string>
+    <string name="equipment7">Havai fritöz</string>
+    <string name="create_account2">Yemek pişirmekten ne kadar hoşlanıyorsunuz?</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="create_account3">Sıfırdan ne sıklıkla yemek pişirirsiniz?</string>
+    <string name="rarely">Nadiren</string>
+    <string name="occasionally">Ara sıra</string>
+    <string name="weekly">Haftalık</string>
+    <string name="several_times_a_week">Haftada birkaç kez</string>
+    <string name="almost_every_day">Neredeyse her gün</string>
+    <string name="what_do_you_enjoy_most_about_the_process_of_cooking">Yemek pişirme süreci hakkında en çok neyden hoşlanıyorsunuz?</string>
+    <string name="developing_new_skills">Yeni Beceriler Geliştirme</string>
+    <string name="relaxation_and_stress_relief">Gevşeme ve stres giderme</string>
+    <string name="sharing_meals_with_others">Yemekleri başkalarıyla paylaşmak</string>
+    <string name="trying_new_recipes">Yeni tarifler denemek</string>
+    <string name="creativity_and_experimentation">Yaratıcılık ve deney</string>
+
+    <string name="recipe_name1">Spagetti Bolognese</string>
+    <string name="tag1">akşam yemeği</string>
+
+    <string name="ing1">Kıyma</string>
+    <string name="ingEg1">grip</string>
+    <string name="ing2">Soğan</string>
+    <string name="ingEg2">PC.</string>
+    <string name="ing3">Havuçlar</string>
+    <string name="ingEg3">grip</string>
+    <string name="ing4">Kereviz sapı</string>
+    <string name="ing5">Zeytin yağı</string>
+    <string name="ing6">yemek kaşığı</string>
+    <string name="ing7">tereyağı</string>
+    <string name="ing8">Yağ kremi</string>
+    <string name="ing9">Beyaz şarap</string>
+    <string name="ingEg9">ml</string>
+    <string name="ing10">Salça</string>
+    <string name="ingEg10">yemek kaşığı</string>
+    <string name="ing11">Domates</string>
+
+    <string name="recipe1">1. In a deep frying pan or saucepan, heat the olive oil over medium heat.
+2. Add onion, celery, carrot and garlic. Fry the vegetables until soft, about 5-7 minutes.
+3. Add the minced meat and cook it until brown, breaking it into small pieces.
+4. Add tomato paste and canned tomatoes, mix. Cook for a few minutes to thicken the sauce.
+5. Gradually add beef or vegetable broth to make the sauce more liquid. Season with salt and pepper to taste.
+6. Reduce the heat to low, cover and cook the bolognese for about 1-2 hours, stirring occasionally.
+7. Cook spaghetti or other pasta according to the instructions on the package.
+8. Serve the bolognese with spaghetti or other pasta. Sprinkle parmesan on top, if desired.</string>
+
+    <string name="recipe_name2">Pizza Margherita</string>
+    <string name="tag2">akşam yemeği</string>
+    <string name="recipe2">1. Preheat the oven to 220 degrees Celsius.
+2. Roll out the pizza ball on a baking sheet greased with olive oil. If you have already prepared the dough, unfold it on a baking sheet.
+3. Apply tomato sauce evenly to the dough, leaving the edges free for crusts.
+4. Grate the mozzarella on a coarse grater and spread it evenly over the sauce.
+5. Cut the tomatoes into thin slices and put them on the pizza.
+6. Sprinkle the pizza with basil, salt and pepper to taste.
+7. Put the pizza in the preheated oven and cook for about 12-15 minutes, or until the crust turns golden and the cheese melts.
+8. After cooking the pizza Margarita, let it cool down a little, then cut into pieces and serve.</string>
+    <string name="ing21">pizza topu (pizza hamuru)</string>
+    <string name="ing22">fincan domates sosu</string>
+    <string name="ing23">mozzarella gram</string>
+    <string name="ing24">domates</string>
+    <string name="ing25">Taze fesleğen veya kurutulmuş fesleğen</string>
+    <string name="ing26">Tatmak için biber ve tuz</string>
+    <string name="ing27">Zeytin yağı</string>
+
+    <string name="recipe_name3">Sezar salatası</string>
+    <string name="recipe3">1. Prepare the chicken breast: cut it into pieces and fry it in a frying pan with oil until golden brown. Let cool and cut into smaller pieces.
+2. Prepare the salad: wash and dry the lettuce leaves, then tear them into several pieces.
+3. Prepare the sauce: in a salad bowl, mix olive oil, lemon juice, garlic, salt and pepper passed through a press. Mix well.
+4. Add the salad leaves to the salad bowl and mix thoroughly with the sauce.
+5. Sprinkle the salad with grated parmesan and croutons. Stir again.
+6. Garnish the caesar salad with chicken pieces on top.
+7. Serve Caesar salad immediately.</string>
+    <string name="ing31">Romano veya buzdağı marul başkanı</string>
+    <string name="ing32">tavuk göğsü</string>
+    <string name="ing33">fincan krutonları (kızarmış ekmek)</string>
+    <string name="ing34">fincan rendelenmiş parmesan</string>
+    <string name="ing35">fincan zeytinyağı</string>
+    <string name="ing36">yemek kaşığı limon suyu</string>
+    <string name="ing37">Sarımsak karanfil</string>
+    <string name="servings">porsiyon</string>
+    <string name="time">zaman</string>
+    <string name="calories">kalori</string>
+    <string name="ingredients">İçindekiler</string>
+    <string name="let_s_cook">Yemek yapalım!</string>
+    <string name="back_to_ingredients">Malzemelere Dön</string>
+    <string name="cooking_instruction">Pişirme talimatı:</string>
+    <string name="beginner">Acemi</string>
+    <string name="study">Çalışmak</string>
+    <string name="neutral">Doğal</string>
+    <string name="good">İyi</string>
+    <string name="excellent">Harika</string>
+</resources>

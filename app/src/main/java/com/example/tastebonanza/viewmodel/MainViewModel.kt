@@ -33,13 +33,12 @@ class MainViewModel(application: Application) : AndroidViewModel(application){
     }
 
     fun getRecipeFilter(selectedEquipment : List<Int>): MutableLiveData<MutableList<Recipe>> {
-        viewModelScope.launch {
 
+        viewModelScope.launch {
             val recipes = withContext(Dispatchers.IO){
-                recipeDao.getRecipesByEquipment(selectedEquipment.first())
+                recipeDao.getRecipesByEquipment()
             }
             recipeListLiveData.postValue(recipes)
-
         }
         return recipeListLiveData
     }

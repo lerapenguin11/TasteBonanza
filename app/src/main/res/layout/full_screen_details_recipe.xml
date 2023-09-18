@@ -4,26 +4,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false">
 
     <ImageView
         android:id="@+id/icon_details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fitsSystemWindows="true"
-        android:preserveLegacyExternalStorage="true"
-        android:requestLegacyExternalStorage="true"
         android:scaleType="fitXY"
+        android:fitsSystemWindows="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/icon_defolt" />
 
+
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="-170dp"
+        android:layout_marginTop="-100dp"
         android:background="@drawable/bg_details"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/icon_details">
@@ -32,17 +33,17 @@
         <ImageView
             android:id="@+id/fon"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             android:preserveLegacyExternalStorage="true"
             android:requestLegacyExternalStorage="true"
             android:scaleType="fitXY"
-            app:layout_constraintVertical_bias="1"
-            android:layout_marginBottom="-40dp"
+            android:layout_marginTop="60dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1"
             app:srcCompat="@drawable/fon3" />
         <ScrollView
             android:id="@+id/scrollView_all_news"
@@ -81,12 +82,12 @@
                         android:id="@+id/tv_tag_details"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        tools:text="breakfast snack"
-                        android:textColor="#4A9CF9"
                         android:fontFamily="@font/poppins_light"
+                        android:textColor="#4A9CF9"
                         app:layout_constraintEnd_toEndOf="@+id/tv_name_recipe_details"
                         app:layout_constraintStart_toStartOf="@+id/tv_name_recipe_details"
-                        app:layout_constraintTop_toBottomOf="@+id/tv_name_recipe_details" />
+                        app:layout_constraintTop_toBottomOf="@+id/tv_name_recipe_details"
+                        tools:text="breakfast snack" />
 
                     <LinearLayout
                         android:id="@+id/linearLayout3"
@@ -233,7 +234,7 @@
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/poppins_light"
                                     android:includeFontPadding="false"
-                                    android:text="@string/servings"
+                                    android:text="@string/time"
                                     android:textColor="@color/white"
                                     android:textSize="14sp"
                                     app:layout_constraintBottom_toBottomOf="parent"
@@ -306,12 +307,12 @@
 
 
                                 <TextView
-                                    android:id="@+id/textView10"
+                                    android:id="@+id/tv_calories"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/poppins_light"
                                     android:includeFontPadding="false"
-                                    android:text="@string/servings"
+                                    android:text="@string/calories"
                                     android:textColor="@color/white"
                                     android:textSize="14sp"
                                     app:layout_constraintBottom_toBottomOf="parent"
@@ -327,7 +328,7 @@
                                     android:includeFontPadding="false"
                                     android:textColor="@color/white"
                                     android:textSize="20sp"
-                                    app:layout_constraintBottom_toTopOf="@+id/textView10"
+                                    app:layout_constraintBottom_toTopOf="@+id/tv_calories"
                                     app:layout_constraintEnd_toEndOf="@+id/constraintLayout10"
                                     app:layout_constraintStart_toStartOf="@+id/constraintLayout10"
                                     app:layout_constraintTop_toBottomOf="@+id/constraintLayout10"
@@ -352,8 +353,8 @@
                             android:id="@+id/bt_details"
                             android:layout_width="180dp"
                             android:layout_height="38dp"
-                            android:layout_marginBottom="20dp"
                             android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
                             android:background="@drawable/bg_bt2"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="@+id/constraintLayout8"
@@ -380,10 +381,10 @@
                             android:id="@+id/textView11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_semibold"
                             android:text="@string/ingredients"
                             android:textColor="#FF4D6E"
                             android:textSize="20sp"
-                            android:fontFamily="@font/poppins_semibold"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
@@ -391,13 +392,13 @@
                             android:id="@+id/tv_count_item"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            tools:text="8 items"
-                            android:textColor="#4A9CF9"
                             android:fontFamily="@font/poppins_light"
+                            android:textColor="#4A9CF9"
                             android:textSize="14sp"
                             app:layout_constraintBottom_toBottomOf="@+id/textView11"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/textView11" />
+                            app:layout_constraintTop_toTopOf="@+id/textView11"
+                            tools:text="8 items" />
 
                         <androidx.constraintlayout.widget.ConstraintLayout
                             android:id="@+id/constraintLayout8"
@@ -451,8 +452,8 @@
                             android:id="@+id/bt_ingredients"
                             android:layout_width="257dp"
                             android:layout_height="38dp"
-                            android:layout_marginBottom="20dp"
                             android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
                             android:background="@drawable/bg_bt2"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="@+id/constraintLayout0"
@@ -479,10 +480,10 @@
                             android:id="@+id/textView15"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_semibold"
                             android:text="@string/cooking_instruction"
                             android:textColor="#FF4D6E"
                             android:textSize="20sp"
-                            android:fontFamily="@font/poppins_semibold"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
@@ -509,9 +510,16 @@
 
 
                                 <TextView
-                                    android:id="@+id/textView14"
+                                    android:id="@+id/tv_text_recipe"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins"
+                                    android:textColor="@color/white"
+                                    android:textSize="16sp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
                                     tools:text="Preheat your oven to 350°F (175°C) and grease a loaf pan.
 In a mixing bowl, mash the ripe banana until smooth.
 Add the flour, eggs, sugar, vegetable oil, a pinch of salt, and a handful of chocolate chips (optional) to the bowl.
@@ -519,14 +527,7 @@ Mix the ingredients together until well combined.
 Pour the batter into the greased loaf pan and smooth the top.
 Bake in the preheated oven for about 60-70 minutes or until a toothpick inserted into the center comes out clean.
 Once baked, remove the banana bread from the oven and let it cool in the pan for 10 minutes.
-Transfer the bread to a wire rack to cool completely before slicing and serving."
-                                    android:textColor="@color/white"
-                                    android:textSize="16sp"
-                                    android:fontFamily="@font/poppins"
-                                    app:layout_constraintBottom_toBottomOf="parent"
-                                    app:layout_constraintEnd_toEndOf="parent"
-                                    app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toTopOf="parent" />
+Transfer the bread to a wire rack to cool completely before slicing and serving." />
                             </androidx.constraintlayout.widget.ConstraintLayout>
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -535,4 +536,14 @@ Transfer the bread to a wire rack to cool completely before slicing and serving.
             </LinearLayout>
         </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/ic_arrow"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back" />
 </androidx.constraintlayout.widget.ConstraintLayout>

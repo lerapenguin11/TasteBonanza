@@ -50,6 +50,8 @@ class CreateEquipmentFragment : Fragment() {
             saveChoice()
         }
 
+        binding.btBack.setOnClickListener { replaceFragmentMain(OnBoardingFragment()) }
+
         return  binding.root
     }
 

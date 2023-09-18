@@ -63,9 +63,50 @@
 6. Reduce the heat to low, cover and cook the bolognese for about 1-2 hours, stirring occasionally.
 7. Cook spaghetti or other pasta according to the instructions on the package.
 8. Serve the bolognese with spaghetti or other pasta. Sprinkle parmesan on top, if desired.</string>
+
+    <string name="recipe_name2">Pizza Margherita</string>
+    <string name="tag2">supper</string>
+    <string name="recipe2">1. Preheat the oven to 220 degrees Celsius.
+2. Roll out the pizza ball on a baking sheet greased with olive oil. If you have already prepared the dough, unfold it on a baking sheet.
+3. Apply tomato sauce evenly to the dough, leaving the edges free for crusts.
+4. Grate the mozzarella on a coarse grater and spread it evenly over the sauce.
+5. Cut the tomatoes into thin slices and put them on the pizza.
+6. Sprinkle the pizza with basil, salt and pepper to taste.
+7. Put the pizza in the preheated oven and cook for about 12-15 minutes, or until the crust turns golden and the cheese melts.
+8. After cooking the pizza Margarita, let it cool down a little, then cut into pieces and serve.</string>
+    <string name="ing21">pizza ball (pizza dough)</string>
+    <string name="ing22">cup tomato sauce</string>
+    <string name="ing23">grams of mozzarella</string>
+    <string name="ing24">tomatoes</string>
+    <string name="ing25">Fresh basil or dried basil</string>
+    <string name="ing26">Salt and pepper to taste</string>
+    <string name="ing27">Olive oil</string>
+
+    <string name="recipe_name3">Caesar Salad</string>
+    <string name="recipe3">1. Prepare the chicken breast: cut it into pieces and fry it in a frying pan with oil until golden brown. Let cool and cut into smaller pieces.
+2. Prepare the salad: wash and dry the lettuce leaves, then tear them into several pieces.
+3. Prepare the sauce: in a salad bowl, mix olive oil, lemon juice, garlic, salt and pepper passed through a press. Mix well.
+4. Add the salad leaves to the salad bowl and mix thoroughly with the sauce.
+5. Sprinkle the salad with grated parmesan and croutons. Stir again.
+6. Garnish the caesar salad with chicken pieces on top.
+7. Serve Caesar salad immediately.</string>
+    <string name="ing31">head of romano or iceberg lettuce</string>
+    <string name="ing32">chicken breasts</string>
+    <string name="ing33">cup croutons (toasted bread)</string>
+    <string name="ing34">cup grated parmesan</string>
+    <string name="ing35">cup olive oil</string>
+    <string name="ing36">tablespoons lemon juice</string>
+    <string name="ing37">cloves of garlic</string>
     <string name="servings">servings</string>
+    <string name="time">time</string>
+    <string name="calories">calories</string>
     <string name="ingredients">Ingredients</string>
     <string name="let_s_cook">Let’s Cook!</string>
-    <string name="cooking_instruction">Cooking Instruction:</string>
     <string name="back_to_ingredients">Back to ingredients</string>
+    <string name="cooking_instruction">Cooking Instruction:</string>
+    <string name="beginner">Beginner</string>
+    <string name="study">Study</string>
+    <string name="neutral">Neutral</string>
+    <string name="good">Good</string>
+    <string name="excellent">Excellent</string>
 </resources>

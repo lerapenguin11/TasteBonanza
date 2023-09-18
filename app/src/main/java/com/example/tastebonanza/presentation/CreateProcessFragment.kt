@@ -22,6 +22,7 @@ class CreateProcessFragment : Fragment() {
         _binding = FragmentCreateProcessBinding.inflate(inflater, container, false)
 
         binding.btNext.setOnClickListener { replaceFragmentMain(MainScreenFragment()) }
+        binding.btBack.setOnClickListener { replaceFragmentMain(OnBoardingFragment()) }
 
         return binding.root
     }

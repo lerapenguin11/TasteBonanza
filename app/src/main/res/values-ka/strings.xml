@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Terectbonanza</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">გამარჯობა ცარიელი ფრაგმენტი</string>
+    <string name="title_onboarding">ქონდარი გადაწყვეტილებები</string>
+    <string name="text_onboarding">ბუნებრივი ბუნებრივი ენის დამუშავების გამოყენებით, იგი გვთავაზობს პერსონალიზებულ რეცეპტებს თქვენი პრეფერენციების, დიეტური საჭიროებებისა და ხელმისაწვდომი ინგრედიენტების საფუძველზე.</string>
+    <string name="skip_for_now">გამოტოვეთ ახლავე</string>
+    <string name="let_s_begin">Მოდით დავიწყოთ!</string>
+    <string name="create_account1">რა სამზარეულოს მოწყობილობებზე გაქვთ წვდომა?</string>
+    <string name="skip">გადახტომა</string>
+
+    <string name="equipment1">ღუმელი</string>
+    <string name="equipment2">Გაზქურის ზედა ნაწილი</string>
+    <string name="equipment3">ნელი გაზქურა</string>
+    <string name="equipment4">მიკროტალღური</string>
+    <string name="equipment5">თაყვანისმცემელი</string>
+    <string name="equipment6">შეწვა</string>
+    <string name="equipment7">საჰაერო ფრაიერი</string>
+    <string name="create_account2">რამდენად გსიამოვნებთ სამზარეულო?</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="create_account3">რამდენად ხშირად ამზადებთ კვებას ნულიდან?</string>
+    <string name="rarely">იშვიათად</string>
+    <string name="occasionally">შემთხვევით</string>
+    <string name="weekly">ყოველკვირეული</string>
+    <string name="several_times_a_week">კვირაში რამდენჯერმე</string>
+    <string name="almost_every_day">Თითქმის ყოველდღე</string>
+    <string name="what_do_you_enjoy_most_about_the_process_of_cooking">რა გსიამოვნებთ ყველაზე მეტად სამზარეულოს პროცესის შესახებ?</string>
+    <string name="developing_new_skills">ახალი უნარების განვითარება</string>
+    <string name="relaxation_and_stress_relief">დასვენება და სტრესის შემსუბუქება</string>
+    <string name="sharing_meals_with_others">კერძების გაზიარება სხვებთან</string>
+    <string name="trying_new_recipes">ახალი რეცეპტების მცდელობა</string>
+    <string name="creativity_and_experimentation">კრეატიულობა და ექსპერიმენტი</string>
+
+    <string name="recipe_name1">სპაგეტი ბოლონი</string>
+    <string name="tag1">ვახშამი</string>
+
+    <string name="ing1">Minced ხორცი</string>
+    <string name="ingEg1">გრ</string>
+    <string name="ing2">Ხახვი</string>
+    <string name="ingEg2">კომპიუტერი.</string>
+    <string name="ing3">სტაფილო</string>
+    <string name="ingEg3">გრ</string>
+    <string name="ing4">ნიახური ღერო</string>
+    <string name="ing5">Ზეითუნის ზეთი</string>
+    <string name="ing6">სუფრის კოვზი</string>
+    <string name="ing7">კარაქი</string>
+    <string name="ing8">ცხიმის კრემი</string>
+    <string name="ing9">თეთრი ღვინო</string>
+    <string name="ingEg9">მლ</string>
+    <string name="ing10">პომიდვრის პასტა</string>
+    <string name="ingEg10">სუფრის კოვზი</string>
+    <string name="ing11">Პომიდვრები</string>
+
+    <string name="recipe1">1. In a deep frying pan or saucepan, heat the olive oil over medium heat.
+2. Add onion, celery, carrot and garlic. Fry the vegetables until soft, about 5-7 minutes.
+3. Add the minced meat and cook it until brown, breaking it into small pieces.
+4. Add tomato paste and canned tomatoes, mix. Cook for a few minutes to thicken the sauce.
+5. Gradually add beef or vegetable broth to make the sauce more liquid. Season with salt and pepper to taste.
+6. Reduce the heat to low, cover and cook the bolognese for about 1-2 hours, stirring occasionally.
+7. Cook spaghetti or other pasta according to the instructions on the package.
+8. Serve the bolognese with spaghetti or other pasta. Sprinkle parmesan on top, if desired.</string>
+
+    <string name="recipe_name2">პიცა მარგერიტა</string>
+    <string name="tag2">ვახშამი</string>
+    <string name="recipe2">1. Preheat the oven to 220 degrees Celsius.
+2. Roll out the pizza ball on a baking sheet greased with olive oil. If you have already prepared the dough, unfold it on a baking sheet.
+3. Apply tomato sauce evenly to the dough, leaving the edges free for crusts.
+4. Grate the mozzarella on a coarse grater and spread it evenly over the sauce.
+5. Cut the tomatoes into thin slices and put them on the pizza.
+6. Sprinkle the pizza with basil, salt and pepper to taste.
+7. Put the pizza in the preheated oven and cook for about 12-15 minutes, or until the crust turns golden and the cheese melts.
+8. After cooking the pizza Margarita, let it cool down a little, then cut into pieces and serve.</string>
+    <string name="ing21">პიცის ბურთი (პიცის ცომი)</string>
+    <string name="ing22">თასის ტომატის სოუსი</string>
+    <string name="ing23">გრამი მოცარელას</string>
+    <string name="ing24">პომიდვრები</string>
+    <string name="ing25">ახალი რეჰანი ან გამხმარი რეჰანი</string>
+    <string name="ing26">მარილი და პილპილი გემოვნებით</string>
+    <string name="ing27">Ზეითუნის ზეთი</string>
+
+    <string name="recipe_name3">კეისრის სალათი</string>
+    <string name="recipe3">1. Prepare the chicken breast: cut it into pieces and fry it in a frying pan with oil until golden brown. Let cool and cut into smaller pieces.
+2. Prepare the salad: wash and dry the lettuce leaves, then tear them into several pieces.
+3. Prepare the sauce: in a salad bowl, mix olive oil, lemon juice, garlic, salt and pepper passed through a press. Mix well.
+4. Add the salad leaves to the salad bowl and mix thoroughly with the sauce.
+5. Sprinkle the salad with grated parmesan and croutons. Stir again.
+6. Garnish the caesar salad with chicken pieces on top.
+7. Serve Caesar salad immediately.</string>
+    <string name="ing31">რომანოს ან აისბერგის სალათის ხელმძღვანელი</string>
+    <string name="ing32">ქათმის მკერდი</string>
+    <string name="ing33">ჭიქა კრუტონები (გაჟღენთილი პური)</string>
+    <string name="ing34">ჭიქა გახეხილი პარმეზანი</string>
+    <string name="ing35">ჭიქა ზეითუნის ზეთი</string>
+    <string name="ing36">სუფრის კოვზი ლიმონის წვენი</string>
+    <string name="ing37">ნივრის კბილი</string>
+    <string name="servings">მსახურება</string>
+    <string name="time">დრო</string>
+    <string name="calories">კალორია</string>
+    <string name="ingredients">შემადგენლობა</string>
+    <string name="let_s_cook">Მოდი მოვამზადოთ!</string>
+    <string name="back_to_ingredients">ინგრედიენტების დაბრუნება</string>
+    <string name="cooking_instruction">სამზარეულოს ინსტრუქცია:</string>
+    <string name="beginner">დამწყები</string>
+    <string name="study">Სწავლა</string>
+    <string name="neutral">ნეიტრალური</string>
+    <string name="good">კარგი</string>
+    <string name="excellent">საუკეთესო</string>
+</resources>

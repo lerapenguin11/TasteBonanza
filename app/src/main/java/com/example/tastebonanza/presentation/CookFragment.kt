@@ -23,6 +23,7 @@ class CookFragment : Fragment() {
         _binding = FragmentCookBinding.inflate(inflater, container, false)
 
         binding.btNext.setOnClickListener { replaceFragmentMain(CreateProcessFragment()) }
+        binding.btBack.setOnClickListener { replaceFragmentMain(OnBoardingFragment()) }
 
         return binding.root
     }

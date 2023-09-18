@@ -8,19 +8,18 @@ import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.tastebonanza.R
 import com.example.tastebonanza.business.database.AppDatabase
 import com.example.tastebonanza.business.database.EquipmentDao
 import com.example.tastebonanza.business.database.RecipeDao
-import com.example.tastebonanza.business.model.Equipment
+import com.example.tastebonanza.business.model.Recipe
 import com.example.tastebonanza.databinding.FragmentMainScreenBinding
+import com.example.tastebonanza.presentation.adapter.IngredientsAdapter
 import com.example.tastebonanza.presentation.adapter.RecipeAdapter
+import com.example.tastebonanza.presentation.adapter.RecipeListener
+import com.example.tastebonanza.utilits.getDialogDetails
 import com.example.tastebonanza.viewmodel.MainViewModel
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 
-class MainScreenFragment : Fragment() {
+class MainScreenFragment : Fragment(), RecipeListener {
     private var _binding : FragmentMainScreenBinding? = null
     private val binding get() = _binding!!
     private lateinit var adapter : RecipeAdapter
@@ -28,6 +27,7 @@ class MainScreenFragment : Fragment() {
     private lateinit var equipmentDao : EquipmentDao
     private lateinit var list : List<Int>
     private lateinit var viewModel : MainViewModel
+    private lateinit var adapterIngredients: IngredientsAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -40,10 +40,10 @@ class MainScreenFragment : Fragment() {
             ViewModelProvider.AndroidViewModelFactory.getInstance(application = requireActivity().application)
         ).get(MainViewModel::class.java)
 
-        adapter = RecipeAdapter(requireContext())
-
+        adapter = RecipeAdapter(requireContext(), this)
         recipeDao = AppDatabase.getInstance(requireContext()).recipeDao()
         equipmentDao = AppDatabase.getInstance(requireContext()).equipmentDao()
+        adapterIngredients = IngredientsAdapter()
 
         tt()
         return binding.root
@@ -62,5 +62,9 @@ class MainScreenFragment : Fragment() {
             })
         })
 
+    }
+
+    override fun getRecipeDetails(recipe: Recipe) {
+        getDialogDetails(recipe, requireContext(), adapterIngredients)
     }
 }

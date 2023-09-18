@@ -9,7 +9,7 @@ import com.example.tastebonanza.business.model.Equipment
 import com.example.tastebonanza.business.model.Ingredients
 import com.example.tastebonanza.business.model.Recipe
 
-@Database(entities = [Equipment::class, Recipe::class, Ingredients::class], version = 6)
+@Database(entities = [Equipment::class, Recipe::class, Ingredients::class], version = 9)
 @TypeConverters(EquipmentConverter::class, IngredientsConverter::class)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun equipmentDao(): EquipmentDao
@@ -25,7 +25,7 @@ abstract class AppDatabase : RoomDatabase() {
                     INSTANCE = Room.databaseBuilder(
                         context.applicationContext,
                         AppDatabase::class.java,
-                        "recipes_database_6"
+                        "recipes_database_9"
                     ).build()
                 }
             }

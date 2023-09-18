@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Gustananza</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Ciao frammento vuoto</string>
+    <string name="title_onboarding">Soluzioni salate</string>
+    <string name="text_onboarding">Utilizzando l\'elaborazione del linguaggio naturale all\'avanguardia, suggerisce ricette personalizzate in base alle preferenze, alle esigenze dietetiche e agli ingredienti disponibili.</string>
+    <string name="skip_for_now">salta per ora</string>
+    <string name="let_s_begin">Cominciamo!</string>
+    <string name="create_account1">A quale attrezzatura da cucina hai accesso?</string>
+    <string name="skip">Saltare</string>
+
+    <string name="equipment1">Forno</string>
+    <string name="equipment2">Piano cottura</string>
+    <string name="equipment3">Cooker lento</string>
+    <string name="equipment4">Microonde</string>
+    <string name="equipment5">Miscelatore</string>
+    <string name="equipment6">Griglia</string>
+    <string name="equipment7">Air Fryer</string>
+    <string name="create_account2">Quanto ti piace cucinare?</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="create_account3">Quanto spesso cucini i pasti da zero?</string>
+    <string name="rarely">Raramente</string>
+    <string name="occasionally">Di tanto in tanto</string>
+    <string name="weekly">settimanalmente</string>
+    <string name="several_times_a_week">Parecchie volte a settimana</string>
+    <string name="almost_every_day">Quasi ogni giorno</string>
+    <string name="what_do_you_enjoy_most_about_the_process_of_cooking">Cosa ti piace di più del processo di cucina?</string>
+    <string name="developing_new_skills">Sviluppare nuove competenze</string>
+    <string name="relaxation_and_stress_relief">Rilassamento e sollievo dallo stress</string>
+    <string name="sharing_meals_with_others">Condividendo i pasti con gli altri</string>
+    <string name="trying_new_recipes">Provare nuove ricette</string>
+    <string name="creativity_and_experimentation">Creatività e sperimentazione</string>
+
+    <string name="recipe_name1">Spaghetti alla bolognese</string>
+    <string name="tag1">cena</string>
+
+    <string name="ing1">Carne macinata</string>
+    <string name="ingEg1">Gr</string>
+    <string name="ing2">Cipolla</string>
+    <string name="ingEg2">PC.</string>
+    <string name="ing3">Carote</string>
+    <string name="ingEg3">Gr</string>
+    <string name="ing4">Gambo di sedano</string>
+    <string name="ing5">Olio d\'oliva</string>
+    <string name="ing6">cucchiai</string>
+    <string name="ing7">burro</string>
+    <string name="ing8">Crema grassa</string>
+    <string name="ing9">vino bianco</string>
+    <string name="ingEg9">ml</string>
+    <string name="ing10">Pasta di pomodoro</string>
+    <string name="ingEg10">cucchiai</string>
+    <string name="ing11">Pomodori</string>
+
+    <string name="recipe1">1. In a deep frying pan or saucepan, heat the olive oil over medium heat.
+2. Add onion, celery, carrot and garlic. Fry the vegetables until soft, about 5-7 minutes.
+3. Add the minced meat and cook it until brown, breaking it into small pieces.
+4. Add tomato paste and canned tomatoes, mix. Cook for a few minutes to thicken the sauce.
+5. Gradually add beef or vegetable broth to make the sauce more liquid. Season with salt and pepper to taste.
+6. Reduce the heat to low, cover and cook the bolognese for about 1-2 hours, stirring occasionally.
+7. Cook spaghetti or other pasta according to the instructions on the package.
+8. Serve the bolognese with spaghetti or other pasta. Sprinkle parmesan on top, if desired.</string>
+
+    <string name="recipe_name2">Pizza Margherita</string>
+    <string name="tag2">cena</string>
+    <string name="recipe2">1. Preheat the oven to 220 degrees Celsius.
+2. Roll out the pizza ball on a baking sheet greased with olive oil. If you have already prepared the dough, unfold it on a baking sheet.
+3. Apply tomato sauce evenly to the dough, leaving the edges free for crusts.
+4. Grate the mozzarella on a coarse grater and spread it evenly over the sauce.
+5. Cut the tomatoes into thin slices and put them on the pizza.
+6. Sprinkle the pizza with basil, salt and pepper to taste.
+7. Put the pizza in the preheated oven and cook for about 12-15 minutes, or until the crust turns golden and the cheese melts.
+8. After cooking the pizza Margarita, let it cool down a little, then cut into pieces and serve.</string>
+    <string name="ing21">Pizza Ball (pasta per pizza)</string>
+    <string name="ing22">tazza di salsa di pomodoro</string>
+    <string name="ing23">Grammi di mozzarella</string>
+    <string name="ing24">pomodori</string>
+    <string name="ing25">Basilico fresco o basilico secco</string>
+    <string name="ing26">Sale e pepe a piacere</string>
+    <string name="ing27">Olio d\'oliva</string>
+
+    <string name="recipe_name3">Insalata di Cesare</string>
+    <string name="recipe3">1. Prepare the chicken breast: cut it into pieces and fry it in a frying pan with oil until golden brown. Let cool and cut into smaller pieces.
+2. Prepare the salad: wash and dry the lettuce leaves, then tear them into several pieces.
+3. Prepare the sauce: in a salad bowl, mix olive oil, lemon juice, garlic, salt and pepper passed through a press. Mix well.
+4. Add the salad leaves to the salad bowl and mix thoroughly with the sauce.
+5. Sprinkle the salad with grated parmesan and croutons. Stir again.
+6. Garnish the caesar salad with chicken pieces on top.
+7. Serve Caesar salad immediately.</string>
+    <string name="ing31">Capo della lattuga Romano o iceberg</string>
+    <string name="ing32">petto di pollo</string>
+    <string name="ing33">Coppa Croutons (pane tostato)</string>
+    <string name="ing34">Parmigiano grattugiato a tazza</string>
+    <string name="ing35">tazza di olio d\'oliva</string>
+    <string name="ing36">cucchiai di succo di limone</string>
+    <string name="ing37">spicchi d\'aglio</string>
+    <string name="servings">porzioni</string>
+    <string name="time">tempo</string>
+    <string name="calories">calorie</string>
+    <string name="ingredients">ingredienti</string>
+    <string name="let_s_cook">Cuciniamo!</string>
+    <string name="back_to_ingredients">Torna agli ingredienti</string>
+    <string name="cooking_instruction">Istruzione di cottura:</string>
+    <string name="beginner">Principiante</string>
+    <string name="study">Studio</string>
+    <string name="neutral">Neutro</string>
+    <string name="good">Bene</string>
+    <string name="excellent">Eccellente</string>
+</resources>

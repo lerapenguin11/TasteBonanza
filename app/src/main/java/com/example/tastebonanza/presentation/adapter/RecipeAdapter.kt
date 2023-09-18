@@ -12,7 +12,7 @@ import com.bumptech.glide.Glide
 import com.example.tastebonanza.R
 import com.example.tastebonanza.business.model.Recipe
 
-class RecipeAdapter(private val context: Context) : RecyclerView.Adapter<RecipeAdapter.RecipeViewHolder>(){
+class RecipeAdapter(private val context: Context, private val listener: RecipeListener) : RecyclerView.Adapter<RecipeAdapter.RecipeViewHolder>(){
     private val recipeList = mutableListOf<Recipe>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecipeViewHolder {
@@ -29,6 +29,10 @@ class RecipeAdapter(private val context: Context) : RecyclerView.Adapter<RecipeA
         holder.name.setText(recipe.name)
         //Glide.with(holder.itemView).load(recipe.icon).into(holder.icon)
         holder.icon.setImageDrawable(ContextCompat.getDrawable(context, recipe.iconList))
+
+        holder.itemView.setOnClickListener {
+            listener.getRecipeDetails(recipe)
+        }
     }
 
     fun setItem(recipeNew: List<Recipe>) {

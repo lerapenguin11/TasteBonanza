@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Testbonanza</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola fragmento en blanco</string>
+    <string name="title_onboarding">Soluciones saladas</string>
+    <string name="text_onboarding">Utilizando el procesamiento del lenguaje natural de última generación, sugiere recetas personalizadas basadas en sus preferencias, necesidades dietéticas e ingredientes disponibles.</string>
+    <string name="skip_for_now">Skip por ahora</string>
+    <string name="let_s_begin">¡Vamos a empezar!</string>
+    <string name="create_account1">¿A qué equipo de cocina tienes acceso?</string>
+    <string name="skip">Saltar</string>
+
+    <string name="equipment1">Horno</string>
+    <string name="equipment2">Estufa</string>
+    <string name="equipment3">Olla de cocción lenta</string>
+    <string name="equipment4">Microonda</string>
+    <string name="equipment5">Licuadora</string>
+    <string name="equipment6">Parrilla</string>
+    <string name="equipment7">Freidora</string>
+    <string name="create_account2">¿Cuánto disfrutas cocinar?</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="create_account3">¿Con qué frecuencia cocina comidas desde cero?</string>
+    <string name="rarely">Casi nunca</string>
+    <string name="occasionally">Ocasionalmente</string>
+    <string name="weekly">Semanalmente</string>
+    <string name="several_times_a_week">Varias veces a la semana</string>
+    <string name="almost_every_day">Casi todos los días</string>
+    <string name="what_do_you_enjoy_most_about_the_process_of_cooking">¿Qué es lo que más disfruta del proceso de cocina?</string>
+    <string name="developing_new_skills">Desarrollar nuevas habilidades</string>
+    <string name="relaxation_and_stress_relief">Relajación y alivio del estrés</string>
+    <string name="sharing_meals_with_others">Compartir comidas con otros</string>
+    <string name="trying_new_recipes">Probar nuevas recetas</string>
+    <string name="creativity_and_experimentation">Creatividad y experimentación</string>
+
+    <string name="recipe_name1">Spaghetti a la boloñesa</string>
+    <string name="tag1">cena</string>
+
+    <string name="ing1">Carne picada</string>
+    <string name="ingEg1">gramo</string>
+    <string name="ing2">Cebolla</string>
+    <string name="ingEg2">ordenador personal.</string>
+    <string name="ing3">Zanahorias</string>
+    <string name="ingEg3">gramo</string>
+    <string name="ing4">Tallo de apio</string>
+    <string name="ing5">Aceite de oliva</string>
+    <string name="ing6">cucharadas</string>
+    <string name="ing7">manteca</string>
+    <string name="ing8">Crema gorda</string>
+    <string name="ing9">vino blanco</string>
+    <string name="ingEg9">ml</string>
+    <string name="ing10">Pasta de tomate</string>
+    <string name="ingEg10">cucharadas</string>
+    <string name="ing11">Tomates</string>
+
+    <string name="recipe1">1. In a deep frying pan or saucepan, heat the olive oil over medium heat.
+2. Add onion, celery, carrot and garlic. Fry the vegetables until soft, about 5-7 minutes.
+3. Add the minced meat and cook it until brown, breaking it into small pieces.
+4. Add tomato paste and canned tomatoes, mix. Cook for a few minutes to thicken the sauce.
+5. Gradually add beef or vegetable broth to make the sauce more liquid. Season with salt and pepper to taste.
+6. Reduce the heat to low, cover and cook the bolognese for about 1-2 hours, stirring occasionally.
+7. Cook spaghetti or other pasta according to the instructions on the package.
+8. Serve the bolognese with spaghetti or other pasta. Sprinkle parmesan on top, if desired.</string>
+
+    <string name="recipe_name2">Pizza Margherita</string>
+    <string name="tag2">cena</string>
+    <string name="recipe2">1. Preheat the oven to 220 degrees Celsius.
+2. Roll out the pizza ball on a baking sheet greased with olive oil. If you have already prepared the dough, unfold it on a baking sheet.
+3. Apply tomato sauce evenly to the dough, leaving the edges free for crusts.
+4. Grate the mozzarella on a coarse grater and spread it evenly over the sauce.
+5. Cut the tomatoes into thin slices and put them on the pizza.
+6. Sprinkle the pizza with basil, salt and pepper to taste.
+7. Put the pizza in the preheated oven and cook for about 12-15 minutes, or until the crust turns golden and the cheese melts.
+8. After cooking the pizza Margarita, let it cool down a little, then cut into pieces and serve.</string>
+    <string name="ing21">Pizza Ball (masa de pizza)</string>
+    <string name="ing22">salsa de tomate</string>
+    <string name="ing23">Gramos de mozzarella</string>
+    <string name="ing24">Tomates</string>
+    <string name="ing25">Albahaca fresca o albahaca seca</string>
+    <string name="ing26">Sal y pimienta para probar</string>
+    <string name="ing27">Aceite de oliva</string>
+
+    <string name="recipe_name3">Ensalada César</string>
+    <string name="recipe3">1. Prepare the chicken breast: cut it into pieces and fry it in a frying pan with oil until golden brown. Let cool and cut into smaller pieces.
+2. Prepare the salad: wash and dry the lettuce leaves, then tear them into several pieces.
+3. Prepare the sauce: in a salad bowl, mix olive oil, lemon juice, garlic, salt and pepper passed through a press. Mix well.
+4. Add the salad leaves to the salad bowl and mix thoroughly with the sauce.
+5. Sprinkle the salad with grated parmesan and croutons. Stir again.
+6. Garnish the caesar salad with chicken pieces on top.
+7. Serve Caesar salad immediately.</string>
+    <string name="ing31">Cabeza de Romano o Letra de Iceberg</string>
+    <string name="ing32">pechugas de pollo</string>
+    <string name="ing33">taza de crutones (pan tostado)</string>
+    <string name="ing34">parmesano rallado</string>
+    <string name="ing35">aceite de oliva</string>
+    <string name="ing36">cucharadas de jugo de limón</string>
+    <string name="ing37">dientes de ajo</string>
+    <string name="servings">porciones</string>
+    <string name="time">tiempo</string>
+    <string name="calories">calorías</string>
+    <string name="ingredients">Ingredientes</string>
+    <string name="let_s_cook">¡Cocinemos!</string>
+    <string name="back_to_ingredients">Volver a los ingredientes</string>
+    <string name="cooking_instruction">Instrucción de cocción:</string>
+    <string name="beginner">Principiante</string>
+    <string name="study">Estudiar</string>
+    <string name="neutral">Neutral</string>
+    <string name="good">Bien</string>
+    <string name="excellent">Excelente</string>
+</resources>
